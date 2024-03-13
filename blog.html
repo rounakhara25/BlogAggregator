@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Blogy - Hey, we’re Blogy. See our thoughts, stories and ideas.</title>
+  <meta name="title" content="Blogy - Hey, we’re Blogy. See our thoughts, stories and ideas.">
+  <meta name="description" content="This is a blog html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="blog.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header section" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlvITaV0iWshL0INF9Rs3Je8yiikiq7tqaEhm3WlK2m4KgVy9mzvLpe4cv6t_6gUCIou0&usqp=CAU" width="129" height="40" alt="Blogy logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover:underline" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover:underline" data-nav-link>Recent Post</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover:underline" data-nav-link>Membership</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="wrapper">
+
+        <button class="search-btn" aria-label="search" data-search-toggler>
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span">Search</span>
+        </button>
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <span class="span one"></span>
+          <span class="span two"></span>
+          <span class="span three"></span>
+        </button>
+
+        <a href="#" class="btn">Join</a>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BAR
+  -->
+
+  <div class="search-bar" data-search-bar>
+
+    <div class="input-wrapper">
+      <input type="search" name="search" placeholder="Search" class="input-field">
+
+      <button class="search-close-btn" aria-label="close search bar" data-search-toggler>
+        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+
+    <p class="search-bar-text">Please enter at least 3 characters</p>
+
+  </div>
+
+  <div class="overlay" data-overlay data-search-toggler></div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <h1 class="h1 hero-title">
+            <strong class="strong">Hey, we’re Blogy.</strong> See our thoughts, stories and ideas.
+          </h1>
+
+          <div class="wrapper">
+
+            <form action="" class="newsletter-form">
+              <input type="email" name="email_address" placeholder="Your email address" class="email-field">
+
+              <button type="submit" class="btn">Subscribe</button>
+            </form>
+
+            <p class="newsletter-text">
+              Get the email newsletter and unlock access to members-only content and updates
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURED POST
+      -->
+
+      <section class="section featured" aria-label="featured post">
+        <div class="container">
+
+          <p class="section-subtitle">
+            Get started with our <strong class="strong">best stories</strong>
+          </p>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="https://us.123rf.com/450wm/kotokomi/kotokomi1710/kotokomi171000041/88392494-believe-achieve-succeed-motivation-quote-on-abstract-pastel-texture-with-brush-strokes.jpg?ver=6" width="500" height="600" loading="lazy"
+                    alt="If you take your belief, and you put in the effort, you will achieve your goal." class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGybKy9sbB2jLOEUVNarXaO5-wBn5yZ_EDiz1kIZuiMhTU2kWx9z8fo8C2F5ZFosHJsCY&usqp=CAU" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="https://online.maryville.edu/wp-content/uploads/sites/97/2023/09/author-brainstorms-idea.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Design</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Idea</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Review</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      If you take your belief, and you put in the effort, you will achieve your goal.
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Believing in yourself and committing to your success is with an awareness of your boundaries and being comfortable with vulnerability
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="https://img.freepik.com/premium-photo/flying-trendy-sneakers-creative-colorful-background-stylish-fashionable-minimalism-concept-levitation-shoes-generate-ai_865659-470.jpg" width="500" height="600" loading="lazy"
+                    alt="It’s a new era in design, there are no rules" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="https://media.istockphoto.com/id/1289220781/photo/portrait-of-happy-smiling-woman-at-desk.jpg?s=612x612&w=0&k=20&c=FtC05luuxRpiKRj5F84e2CiPf0h_ZuX6o7o5JwlNaJM=" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Creative</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Product</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      It’s a new era in design, there are no rules
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Quibus autem in rebus tanta obscuratio non fit, fieri tamen potest, ut id ipsum, quod interest, non
+                    sit magnum. Ita fit
+                    ut, quanta differentia est in principiis naturalibus, tanta sit in finibus bonorum malorumque
+                    dissimilitudo.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="https://iislb.com/core/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-24-at-10.13.39-AM.jpeg" width="500" height="600" loading="lazy"
+                    alt="Perfection has to do with the end product" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjv0mQYU5JbCJVtensy-Qlv3TQ_f9YjOxg19Q7udB0Tr8DlKAswLq1onFby6DbcWvMj-k&usqp=CAU" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Design</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Creative</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Idea</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Perfection has to do with the end product
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Aenean eget urna aliquet, viverra orci quis, aliquam erat. Ut rutrum quam quam, eu eleifend est
+                    blandit et. Vivamus
+                    suscipit ultrices venenatis. Aliquam massa ipsum, porta quis hendrerit at, varius sed leo. Curabitur
+                    convallis urna sit
+                    amet mi tempus posuere.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="https://www.edinburghmuseums.org.uk/sites/default/files/images/Peoples-Story-Museum-Edinburgh.jpg" width="500" height="600" loading="lazy"
+                    alt="Everyone has a different life story" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="https://images.pexels.com/photos/8067810/pexels-photo-8067810.jpeg?cs=srgb&dl=pexels-alena-shekhovtcova-8067810.jpg&fm=jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="https://images.pexels.com/photos/6592631/pexels-photo-6592631.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">People</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Story</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Everyone has a different life story
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Non est igitur summum malum dolor. Tu autem inter haec tantam multitudinem hominum interiectam non
+                    vides nec laetantium
+                    nec dolentium. Nunc vero a primo quidem mirabiliter occulta natura est nec perspici nec cognosci
+                    potest.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="https://cdn1.qualitygurus.com/wp-content/uploads/2021/12/what-is-quality.jpeg?lossy=1&ssl=1" width="500" height="600" loading="lazy"
+                    alt="The difference is quality" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="https://images.pexels.com/photos/8067810/pexels-photo-8067810.jpeg?cs=srgb&dl=pexels-alena-shekhovtcova-8067810.jpg&fm=jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Design</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Lifestyle</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Idea</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      The difference is quality
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Vide, ne etiam menses! nisi forte eum dicis, qui, simul atque arripuit, interficit. Atque his de
+                    rebus et splendida est
+                    eorum et illustris oratio.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="https://media.licdn.com/dms/image/C5612AQEiWxhqSdtG_w/article-cover_image-shrink_600_2000/0/1551702155875?e=2147483647&v=beta&t=CJ--lG_sFO8M5CI0McneAp7MlajtsLtj9JVonm1uaeY" width="500" height="600" loading="lazy"
+                    alt="Problems are not stop signs, they are guidelines" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="data:image/jpeg;base64,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" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Idea</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Creating</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Problems are not stop signs, they are guidelines
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Quid ad utilitatem tantae pecuniae. Duo enim genera quae erant, fecit tria. Et quod est munus, quod
+                    opus sapientiae.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+    <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="section newsletter">
+
+        <h2 class="h2 section-title">
+          Subscribe to <strong class="strong">new posts</strong>
+        </h2>
+
+        <form action="" class="newsletter-form">
+          <input type="email" name="email_address" placeholder="Your email address" required class="email-field">
+
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="https://socialbuzzclub.com/wp-content/uploads/2012/05/blogging.jpg" width="129" height="40" alt="Blogy logo">
+          </a>
+
+          <p class="footer-text">
+            A minimal, functional theme for running a paid-membership publication on Ghost.
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Social</p>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-facebook"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Facebook</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-twitter"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Twitter</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-pinterest"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Pinterest</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-vimeo"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Vimeo</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">About</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Style Guide</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Contact</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link hover:underline">Privacy Policy</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Features</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Upcoming Events</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Blog & News</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">FAQ Question</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Testimonial</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Membership</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Account</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Membership</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Subscribe</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Tags</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Authors</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="section footer-bottom">
+
+        <p class="copyright">
+          &copy; Blogy 2024. Published by <a href="#" class="copyright-link hover:underline">rounakhara</a>.
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="blog.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
